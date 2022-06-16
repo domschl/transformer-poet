@@ -9,4 +9,5 @@ Character based transformer model for text generation
 
 ## History
 
-* (2022-01-13: Project split from [LSTM-version tensor-poet](https://github.com/domschl/tensor-poet). Further project-siblings are [torch-poet](https://github.com/domschl/torch-poet), implementing char-based text generation with pytorch  and [syncognite rnnreader](https://github.com/domschl/syncognite/tree/master/rnnreader), implementing char-based text generation completely from scratch with c++.
+* 2022-06-16: Tests with autoencoder-like bottlenecks in multi-head attention: in the middle of the layer-stack, decrease attention-units and increase attention-heads.
+* 2022-01-13: Project split from [LSTM-version tensor-poet](https://github.com/domschl/tensor-poet). Further project-siblings are [torch-poet](https://github.com/domschl/torch-poet), implementing char-based text generation with pytorch  and [syncognite rnnreader](https://github.com/domschl/syncognite/tree/master/rnnreader), implementing char-based text generation completely from scratch with c++.
