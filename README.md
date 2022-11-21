@@ -5,6 +5,8 @@
 
 Character, ngram or word based transformer model for text generation. Uses [ml-indie-tools](https://github.com/domschl/ml-indie-tools) to run locally on M1-Mac, Nvidia or remotely on Colab with single code-base.
 
+You can find the transformer attention implementation at the [ml-indie-project](https://github.com/domschl/ml-indie-tools/blob/42859f8036aae3455f0231fbeb1b71d982f25d14/src/ml_indie_tools/keras_custom_layers.py#L244), it's minimal and well documented and can server as base for further experimentations with transformer-like architecture.
+
 ## History
 
 * 2022-11-21: ml-indie-tool ngram support.
