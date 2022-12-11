@@ -9,6 +9,7 @@ You can find the transformer attention implementation at the [ml-indie-project](
 
 ## History
 
-* 2022-11-21: ml-indie-tool ngram support.
+* 2022-12-11: ml-indie-tools 0.3.17 has new RecurrentSelfAttention layer that introduces a state similar to RNNs into key matrix of the Attention.
+* 2022-11-21: ml-indie-tools ngram support.
 * 2022-06-16: Tests with autoencoder-like bottlenecks in multi-head attention: in the middle of the layer-stack, decrease attention-units and increase attention-heads.
 * 2022-01-13: Project split from [LSTM-version tensor-poet](https://github.com/domschl/tensor-poet). Further project-siblings are [torch-poet](https://github.com/domschl/torch-poet), implementing char-based text generation with pytorch  and [syncognite rnnreader](https://github.com/domschl/syncognite/tree/master/rnnreader), implementing char-based text generation completely from scratch with c++.
