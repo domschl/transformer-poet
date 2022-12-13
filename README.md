@@ -9,6 +9,7 @@ You can find the transformer attention implementation at the [ml-indie-project](
 
 ## History
 
+* 2022-12-13: ml-indie-tools 0.4.0 removed all recurrence and gated memory, since it didn't improve things. Work-around for M1 tensorflow 2.11 problems with ADAM and XLA (crash on train), fixed using legacy.ADAM.
 * 2022-12-11: ml-indie-tools 0.3.17 has new RecurrentSelfAttention layer that introduces a state similar to RNNs into key matrix of the Attention.
 * 2022-11-21: ml-indie-tools ngram support.
 * 2022-06-16: Tests with autoencoder-like bottlenecks in multi-head attention: in the middle of the layer-stack, decrease attention-units and increase attention-heads.
